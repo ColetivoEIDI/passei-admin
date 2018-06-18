@@ -1,4 +1,4 @@
-# ColetivoEIDI-Passei
+# ColetivoEIDI-Passei-Admin
   
  <strong>
   PASSEI? - http://play.google.com/store/apps/details?id=com.eidi.passei<br/>
