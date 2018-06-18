@@ -3,15 +3,15 @@
  <strong>
   PASSEI? - http://play.google.com/store/apps/details?id=com.eidi.passei<br/>
   @copyright Copyright (c) 2016 Coletivo EIDI (site: https://sites.google.com/site/eidicoletivo) <br/>
-  @license - https://github.com/ColetivoEIDI/passei-mobile/blob/master/LICENSE (GNU GENERAL PUBLIC LICENSE)
+  @license - https://github.com/ColetivoEIDI/passei-admin/blob/master/LICENSE (GNU GENERAL PUBLIC LICENSE)
  </strong>
 
   <h2>Installation:</h2>
   <h3>Serve Browser:</h3>
 
 ```shell
-$ git clone https://github.com/ColetivoEIDI/passei-mobile.git
-$ cd passei-mobile
+$ git clone https://github.com/ColetivoEIDI/passei-admin.git
+$ cd passei-admin
 $ ionic serve
 ```
 
@@ -32,14 +32,14 @@ $ ionic serve
 <code> $ npm run compodoc </code>
 
 ## Documentation
-to better understand the project structure read the <a href="https://coletivoeidi.github.io/passei-mobile">documentation</a>
+to better understand the project structure read the <a href="https://coletivoeidi.github.io/passei-admin">documentation</a>
 
 ## Credits
 <ul>
   <li><a href="https://github.com/el7hon">Elthon Oliveira</a></li>
-  <li><a href="https://github.com/Juliano-rb">Juliano Rocha</a></li>
-  <li><a href="https://github.com/MonalyVital">Monaly Vital</a></li>
   <li><a href="https://github.com/paulohrodrigues">Paulo Henrique Abreu</a></li>
+  <li><a href="https://github.com/alinyaraujos">Janielly Aliny Araújo Silva</a> </li>
+  <li><a href="https://github.com/matheusrmeloo">Matheus Rodrigues A. Melo</a> </li>
 </ul>
 
 ## Contributing
@@ -52,4 +52,4 @@ Send us a Pull Request! Here is how:
 5. Submit a pull request
 
 ## License
-<strong>The "Passei?" is licensed under the GNU general public license. See <a href="https://github.com/ColetivoEIDI/passei-mobile/blob/master/LICENSE">License</a> File for more information.</strong>
+<strong>The "passei-admin" is licensed under the GNU general public license. See <a href="https://github.com/ColetivoEIDI/passei-admin/blob/master/LICENSE">License</a> File for more information.</strong>
