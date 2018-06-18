@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Passei Web
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+
+  <ion-list>
+    <ion-input type="text" [(ngModel)]="this.universities.name" placeholder="Name" ></ion-input><br>
+    <ion-input type="text" placeholder="Quantidade" [(ngModel)]="quantidade" (input)="mudaQuantidade()" ></ion-input>
+
+    <hr>
+    <div *ngFor="let item of valuesKey; let i = index">
+      <ion-input type="text"  [(ngModel)]="valuesKeyForJson[i]"></ion-input>
+    </div>
+    <br><hr>
+    <ion-input type="text"  placeholder="Quantidade" [(ngModel)]="quantidadeResult" (input)="mudaQuantidadeResult()"></ion-input>
+    <hr>
+    <div *ngFor="let item of valuesKeyResult; let i = index">
+        <ion-input type="text"  [(ngModel)]="valuesKeyResultForJson[i]"></ion-input>
+    </div>
+    <br><br><hr>
+    <button block (click)="criarRegra()">Criar Regras</button>
+
+  </ion-list>
+
+</ion-content>
